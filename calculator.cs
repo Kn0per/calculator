@@ -44,7 +44,10 @@ namespace Calculator
                         Console.WriteLine("Умножение: пока не реализовано");
                         break;
                     case "6":
-                        Console.WriteLine("Деление: пока не реализовано");
+                        if (b == 0)
+                            Console.WriteLine("Ошибка: деление на ноль");
+                        else
+                            Console.WriteLine($"A / B = {a / b}");
                         break;
                     case "0":
                         return;
