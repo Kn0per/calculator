@@ -1,0 +1,57 @@
+using System;
+
+namespace Calculator
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double a = 0;
+            double b = 0;
+
+            while (true)
+            {
+                Console.WriteLine();
+                Console.WriteLine("===== Калькулятор =====");
+                Console.WriteLine($"A = {a}, B = {b}");
+                Console.WriteLine("1. Ввести A");
+                Console.WriteLine("2. Ввести B");
+                Console.WriteLine("3. Выполнить операцию \"+\"");
+                Console.WriteLine("4. Выполнить операцию \"-\"");
+                Console.WriteLine("5. Выполнить операцию \"*\"");
+                Console.WriteLine("6. Выполнить операцию \"/\"");
+                Console.WriteLine("0. Выход");
+                Console.Write("Выберите пункт: ");
+
+                string choice = Console.ReadLine();
+
+                switch (choice)
+                {
+                    case "1":
+                        Console.WriteLine("Ввод A: пока не реализовано");
+                        break;
+                    case "2":
+                        Console.WriteLine("Ввод B: пока не реализовано");
+                        break;
+                    case "3":
+                        Console.WriteLine("Сложение: пока не реализовано");
+                        break;
+                    case "4":
+                        Console.WriteLine("Вычитание: пока не реализовано");
+                        break;
+                    case "5":
+                        Console.WriteLine("Умножение: пока не реализовано");
+                        break;
+                    case "6":
+                        Console.WriteLine("Деление: пока не реализовано");
+                        break;
+                    case "0":
+                        return;
+                    default:
+                        Console.WriteLine("Неверный пункт меню");
+                        break;
+                }
+            }
+        }
+    }
+}
