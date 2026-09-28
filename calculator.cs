@@ -41,7 +41,7 @@ namespace Calculator
                         Console.WriteLine("Вычитание: пока не реализовано");
                         break;
                     case "5":
-                        Console.WriteLine("Умножение: пока не реализовано");
+                        Console.WriteLine($"A * B = {a * b}");
                         break;
                     case "6":
                         Console.WriteLine("Деление: пока не реализовано");
