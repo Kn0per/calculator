@@ -36,7 +36,7 @@ namespace Calculator
                         b = double.Parse(Console.ReadLine());
                         break;
                     case "3":
-                        Console.WriteLine("Сложение: пока не реализовано");
+                        Console.WriteLine($"A + B = {a + b}");
                         break;
                     case "4":
                         Console.WriteLine("Вычитание: пока не реализовано");
