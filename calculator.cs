@@ -28,7 +28,8 @@ namespace Calculator
                 switch (choice)
                 {
                     case "1":
-                        Console.WriteLine("Ввод A: пока не реализовано");
+                        Console.Write("Введите A: ");
+                        a = double.Parse(Console.ReadLine());
                         break;
                     case "2":
                         Console.WriteLine("Ввод B: пока не реализовано");
