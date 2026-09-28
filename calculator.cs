@@ -31,7 +31,8 @@ namespace Calculator
                         Console.WriteLine("Ввод A: пока не реализовано");
                         break;
                     case "2":
-                        Console.WriteLine("Ввод B: пока не реализовано");
+                        Console.Write("Введите B: ");
+                        b = double.Parse(Console.ReadLine());
                         break;
                     case "3":
                         Console.WriteLine("Сложение: пока не реализовано");
